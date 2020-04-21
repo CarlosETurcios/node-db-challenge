@@ -39,16 +39,17 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
-
+      Rational Databases are data stored in a Table and SQL is a standard language used to mandage data bases and data within them
 - [ ] Why do tables need a `primary key`?
-
+      we need primary keys to identify data in rows
 - [ ] What is the name given to a table column that references the primary key on another table.
-
+      Foreign keys
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+      a third table to link the firt two table .
 
 ## Minimum Viable Product
 
-Take the steps necessary to complete the project from scratch. Start by initializing your project with a `package.json` and go from there.
+Take the steps necessa ry to complete the project from scratch. Start by initializing your project with a `package.json` and go from there.
 
 Complete the following tasks:
 
@@ -79,7 +80,8 @@ A `project` is what needs to be done. We want to store the following data about 
 - [ ] a description.
 - [ ] a boolean that indicates if the project has been completed. This column cannot be NULL, the default value should be `false`.
 
-A `resource` is anything needed to complete a project, some examples are: a person, a tool, a meeting room or a software license. We want to store the following data about a `resource`:
+A
+`resource` is anything needed to complete a project, some examples are: a person, a tool, a meeting room or a software license. We want to store the following data about a `resource`:
 
 - [ ] a unique ID.
 - [ ] a name. This column is required.
